@@ -9,7 +9,7 @@ let num = ref(0)
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img src="./assets/icon.svg" alt="" height="40" class="d-inline-block align-text-center">
+        <img src="../public/icon.svg" alt="" height="40" class="d-inline-block align-text-center">
         PokeVite
       </router-link>
 
@@ -29,12 +29,6 @@ let num = ref(0)
           </li>
 
         </ul>
-        <!-- 
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      -->
       </div>
     </div>
   </nav>
